@@ -25,7 +25,12 @@ logo_widget = tk.Label(frame1, image = logo_img, bg=bg_colour)
 logo_widget.image = logo_img
 logo_widget.pack()
 
-tk.Label(frame1, text="UNE ")
+tk.Label(frame1, 
+         text="UNE - NSW Convict History Database",
+         bg = bg_colour,
+         fg="white",
+         font = ("TkMenuFont", 14)
+         ).pack()
 
 
 #Set dimension of screen and where it is placed
